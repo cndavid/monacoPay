@@ -1,0 +1,4 @@
+vendor/
+data/runtime/
+data/conf/config.php
+data/conf/database.php
