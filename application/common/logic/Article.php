@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -22,7 +22,7 @@ class Article extends BaseLogic
     /**
      * 获取文章列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -38,7 +38,7 @@ class Article extends BaseLogic
     /**
      * 获取通知列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -55,7 +55,7 @@ class Article extends BaseLogic
     /**
      * 获取文章总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -67,7 +67,7 @@ class Article extends BaseLogic
     /**
      * 获取知总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -79,7 +79,7 @@ class Article extends BaseLogic
     /**
      * 获取文章信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -93,7 +93,7 @@ class Article extends BaseLogic
     /**
      * 获取通知信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -107,7 +107,7 @@ class Article extends BaseLogic
     /**
      * 文章信息编辑
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data
      * @return array|string
@@ -145,7 +145,7 @@ class Article extends BaseLogic
     /**
      * 通知信息编辑
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data
      * @return array|string
@@ -184,7 +184,7 @@ class Article extends BaseLogic
     /**
      * 文章删除
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return array|string
@@ -210,7 +210,7 @@ class Article extends BaseLogic
     /**
      * 通知删除
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return array|string

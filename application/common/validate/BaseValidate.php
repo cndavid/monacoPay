@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 namespace app\common\validate;
@@ -30,7 +30,7 @@ class BaseValidate extends Validate
      * 基类定义了很多自定义验证方法
      * 这些自定义验证方法其实，也可以直接调用
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return array|bool
      * @throws ParameterException
@@ -51,7 +51,7 @@ class BaseValidate extends Validate
     /**
      * Not Empty
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $value
      * @param string $rule
@@ -70,7 +70,7 @@ class BaseValidate extends Validate
 
     /**
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $value
      * @param string $rule
@@ -89,7 +89,7 @@ class BaseValidate extends Validate
     /**
      * 验证码检查
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $value
      * @param string $rule
@@ -111,7 +111,7 @@ class BaseValidate extends Validate
     /**
      * 用户状态检测
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $value
      * @param string $rule

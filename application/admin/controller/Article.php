@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -24,7 +24,7 @@ class Article extends BaseAdmin
     /**
      * 文章列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -36,7 +36,7 @@ class Article extends BaseAdmin
     /**
      * 通知公告
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -48,7 +48,7 @@ class Article extends BaseAdmin
     /**
      * 文章列表
      * @url /article/getList?page=1&limit=10&id=8&author=&title=
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getList(){
@@ -88,7 +88,7 @@ class Article extends BaseAdmin
     /**
      * 通知列表
      * @url /article/getNoticeList?page=1&limit=10&id=8&author=&title=
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getNoticeList(){
@@ -128,7 +128,7 @@ class Article extends BaseAdmin
     /**
      * 文章添加
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -143,7 +143,7 @@ class Article extends BaseAdmin
     /**
      * 通知添加
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -158,7 +158,7 @@ class Article extends BaseAdmin
     /**
      * 文章编辑
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -172,7 +172,7 @@ class Article extends BaseAdmin
     /**
      * 通知编辑
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -189,7 +189,7 @@ class Article extends BaseAdmin
     /**
      * 删除文章
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $id
      *
@@ -202,7 +202,7 @@ class Article extends BaseAdmin
     /**
      * 删除通知
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $id
      *
@@ -215,7 +215,7 @@ class Article extends BaseAdmin
     /**
      * 文章添加与编辑通用方法
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function articleCommon()
@@ -232,7 +232,7 @@ class Article extends BaseAdmin
     /**
      * 通知添加与编辑通用方法
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function noticeCommon()
@@ -255,7 +255,7 @@ class Article extends BaseAdmin
     /**
      * 文章图片上传
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function uploadPicture(){
@@ -265,7 +265,7 @@ class Article extends BaseAdmin
     /**
      * 文章附件上传
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function uploadAttach(){

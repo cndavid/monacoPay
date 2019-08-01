@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -26,7 +26,7 @@ class Notify extends BaseApi
     /**
      * 支付回调助手
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @return bool
@@ -67,7 +67,7 @@ class Notify extends BaseApi
     /**
      * 更新支付订单数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      * @param $success

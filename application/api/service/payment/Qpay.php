@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -24,7 +24,7 @@ class Qpay extends ApiPayment
     /**
      * QQ扫码支付
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -44,7 +44,7 @@ class Qpay extends ApiPayment
     /**
      * QQ公众号支付
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -71,7 +71,7 @@ class Qpay extends ApiPayment
     /**
      * QQ APP支付
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -99,7 +99,7 @@ class Qpay extends ApiPayment
     /**
      * 异步回调地址 /默认按类名称  【 https://pay.iredcap.cn/notify/wxpay 】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return array
@@ -115,7 +115,7 @@ class Qpay extends ApiPayment
     /**
      * QQ预下单
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      * @param string $trade_type
@@ -167,7 +167,7 @@ class Qpay extends ApiPayment
     /**
      * 回调验签
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return array
@@ -194,7 +194,7 @@ class Qpay extends ApiPayment
     /**
      * 获取QQ签名
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $params
      * @param $key
@@ -212,7 +212,7 @@ class Qpay extends ApiPayment
     /**
      * QQ字符串排序
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $paraMap
      *

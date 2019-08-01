@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -35,7 +35,7 @@ class Common extends Controller
     /**
      * 初始化配置信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      */
@@ -61,7 +61,7 @@ class Common extends Controller
     /**
      * 数据返回
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $code
      * @param string $msg
@@ -81,7 +81,7 @@ class Common extends Controller
     /**
      * 解析数组
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data
      * @return array
@@ -94,7 +94,7 @@ class Common extends Controller
     /**
      * 解析查询请求日期
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return array
      */
@@ -111,7 +111,7 @@ class Common extends Controller
     /**
      * 获取逻辑层实例  --魔术方法
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $logicName
      * @return \think\Model|\think\Validate
@@ -128,7 +128,7 @@ class Common extends Controller
     /**
      * 获取层前缀
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $name
      * @return bool|mixed

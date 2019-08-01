@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -20,7 +20,7 @@ class Login extends Common
     /**
      * 登录首页
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -35,7 +35,7 @@ class Login extends Common
     /**
      * 登录处理
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $username
      * @param string $password
@@ -50,7 +50,7 @@ class Login extends Common
     /**
      * 注销登录
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function logout()
@@ -61,7 +61,7 @@ class Login extends Common
     /**
      * 清理缓存
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function clearCache()

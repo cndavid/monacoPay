@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -21,7 +21,7 @@ class Index extends BaseAdmin
     /**
      * 访问首页  -  加载框架
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -33,7 +33,7 @@ class Index extends BaseAdmin
     /**
      * 欢迎主页  -  展示数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -45,7 +45,7 @@ class Index extends BaseAdmin
     /**
      * 订单月统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getOrderStat(){
@@ -62,7 +62,7 @@ class Index extends BaseAdmin
     /**
      * 本月最近订单
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getOrdersList(){

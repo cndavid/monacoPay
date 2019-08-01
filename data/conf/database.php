@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
 */
 
@@ -16,13 +16,13 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => 'mysql',
+    'hostname'        => '172.17.0.1',
     // 数据库名
     'database'        => 'cmpay',
     // 用户名
     'username'        => 'root',
     // 密码
-    'password'        => 'Killcat@018',
+    'password'        => '1213',
     // 端口
     'hostport'        => '3306',
     // 连接dsn

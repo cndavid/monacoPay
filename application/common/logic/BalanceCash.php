@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -25,7 +25,7 @@ class BalanceCash extends BaseLogic
     /**
      * 获取订单信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool|string $field
@@ -47,7 +47,7 @@ class BalanceCash extends BaseLogic
     /**
      * 获取打款列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -72,7 +72,7 @@ class BalanceCash extends BaseLogic
     /**
      * 获取打款列表总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return mixed
@@ -84,7 +84,7 @@ class BalanceCash extends BaseLogic
     /**
      * 新增提现申请记录
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      *
@@ -123,7 +123,7 @@ class BalanceCash extends BaseLogic
     /**
      * 推送打款队列
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      *
@@ -146,7 +146,7 @@ class BalanceCash extends BaseLogic
     /**
      * 驳回提现
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      *
@@ -180,7 +180,7 @@ class BalanceCash extends BaseLogic
     /**
      * 设置某个字段参数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field

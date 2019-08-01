@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -20,7 +20,7 @@ class Banker extends BaseLogic
     /**
      * 获取所有支持银行
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -34,7 +34,7 @@ class Banker extends BaseLogic
     /**
      * 所有支持银行总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -48,7 +48,7 @@ class Banker extends BaseLogic
     /**
      * 获取所有支持银行
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field

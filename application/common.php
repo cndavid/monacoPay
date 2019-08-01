@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -50,7 +50,7 @@ function is_login()
 /**
  * 清除登录 session
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  */
 function clear_admin_login_session()
@@ -63,7 +63,7 @@ function clear_admin_login_session()
 /**
  * 清除登录 session
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  */
 function clear_user_login_session()
@@ -77,7 +77,7 @@ function clear_user_login_session()
 /**
  * 数据签名认证
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param  array  $data 被认证的数据
  * @return string       签名
@@ -155,7 +155,7 @@ function data_md5_key($str, $key = 'Iredcap')
 /**
  * 系统非常规MD5加密方法
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param  string $str 要加密的字符串
  * @param string $key
@@ -269,7 +269,7 @@ function array_extract($array = [], $key = 'id')
 /**
  * 数组转换为字符串，主要用于把分隔符调整到第二个参数
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param  array  $arr  要连接的数组
  * @param  string $glue 分割符
@@ -333,7 +333,7 @@ function obj2arr($obj) {
 /**
  * 字符串替换
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param string $str
  * @param string $target
@@ -349,7 +349,7 @@ function sr($str = '', $target = '', $content = '')
 /**
  * 字符串前缀验证
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $str
  * @param $prefix
@@ -364,7 +364,7 @@ function str_prefix($str, $prefix)
 /**
  * 生成支付订单号
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @return string
  */
@@ -380,7 +380,7 @@ function create_order_no()
 /**
  * 生成唯一的订单号 20110809111259232312
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @return string
  */
@@ -393,7 +393,7 @@ function create_general_no() {
 
 /**
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $url
  * @param $rawData
@@ -436,7 +436,7 @@ function curl_post_raw($url, $rawData, $target = 'FAIL', $retry=6, $sleep = 3 ,$
 /**
  * 获取随机字符
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param string $length
  * @param $format
@@ -472,7 +472,7 @@ function getRandChar($length = '4',$format = 'ALL')
 /**
  * 月赋值
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $array
  * @param $key
@@ -493,7 +493,7 @@ function get_order_month_stat($array,$key){
 /**
  * 下划线转驼峰
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $uncamelized_words
  * @param string $separator
@@ -509,7 +509,7 @@ function camelize($uncamelized_words,$separator='_'){
 /**
  * 驼峰命名转下划线命名
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $camelCaps
  * @param string $separator
@@ -523,7 +523,7 @@ function uncamelize($camelCaps,$separator='_')
 /**
  * 获取到微秒
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @return float
  */
@@ -535,7 +535,7 @@ function getMicroTime(){
 /**
  * url参数转化成数组
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $query
  *
@@ -562,7 +562,7 @@ function convertUrlArray($query)
 /**
  * 通过类创建逻辑闭包
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param null $object
  * @param string $method_name
@@ -584,7 +584,7 @@ function create_closure($object = null, $method_name = '', $parameter = [])
 /**
  * 通过闭包控制缓存
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param string $key
  * @param null $func
@@ -610,7 +610,7 @@ function auto_cache($key = '', $func = '', $time = 3)
 /**
  * 通过闭包列表控制事务
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param array $list
  *

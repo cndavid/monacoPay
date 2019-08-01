@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -25,7 +25,7 @@ class Login extends Common
     /**
      * 初始化极验
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function startGeetest() {
@@ -44,7 +44,7 @@ class Login extends Common
     /**
      * 极验检查
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function checkGeetest() {
@@ -72,7 +72,7 @@ class Login extends Common
     /**
      * 登录
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -92,7 +92,7 @@ class Login extends Common
     /**
      * 用户注册
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -107,7 +107,7 @@ class Login extends Common
     /**
      * 注销登录
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function logout()
@@ -118,7 +118,7 @@ class Login extends Common
     /**
      * 检查用户邮箱
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function checkUser(){
@@ -130,7 +130,7 @@ class Login extends Common
     /**
      * 检查手机号码
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function checkPhone(){
@@ -143,7 +143,7 @@ class Login extends Common
     /**
      * 发送验证码
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function sendSmsCode(){
@@ -155,7 +155,7 @@ class Login extends Common
     /**
      * 发送验证码
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function sendMailCode(){
@@ -167,7 +167,7 @@ class Login extends Common
     /**
      * 发送激活邮件
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -186,7 +186,7 @@ class Login extends Common
     /**
      * 注册账户验证
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $code
      * @return mixed

@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -27,7 +27,7 @@ class Notify extends BaseApi
     /**
      * 个人收款配置 【等待开发】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function person($channel = 'wxpay'){
@@ -46,7 +46,7 @@ class Notify extends BaseApi
     /**
      * 同步回调 【不做数据处理 获取商户回调地址返回就行了】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $channel
      *
@@ -63,7 +63,7 @@ class Notify extends BaseApi
     /**
      * 统一异步通知
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $channel
      *

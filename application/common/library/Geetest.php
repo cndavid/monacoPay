@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -17,7 +17,7 @@ namespace app\common\library;
 /**
  * 极验行为式验证安全平台，php 网站主后台包含的库文件
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  */
 class Geetest {
@@ -39,7 +39,7 @@ class Geetest {
     /**
      * 判断极验服务器是否down机
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $param
      * @param int $new_captcha
@@ -64,7 +64,7 @@ class Geetest {
     /**
      * challenge
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $challenge
      */
@@ -82,7 +82,7 @@ class Geetest {
     /**
      * failback_process
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     private function failback_process() {
@@ -101,7 +101,7 @@ class Geetest {
     /**
      * get_response_str
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return string
      */
@@ -112,7 +112,7 @@ class Geetest {
     /**
      * 返回数组方便扩展
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -123,7 +123,7 @@ class Geetest {
     /**
      * 正常模式获取验证结果
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $challenge
      * @param string $validate
@@ -161,7 +161,7 @@ class Geetest {
     /**
      * 宕机模式获取验证结果
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $challenge
      * @param $validate
@@ -195,7 +195,7 @@ class Geetest {
     /**
      * GET 请求
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $url
      * @return bool|int|mixed|string
@@ -236,7 +236,7 @@ class Geetest {
     /**
      * POST 请求
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $url
      * @param string $postdata
@@ -292,7 +292,7 @@ class Geetest {
     /**
      * triggerError
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $err
      */

@@ -1,3 +1,4 @@
 .idea/
 vendor/
 data/runtime/
+data/conf/database.php

@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -22,7 +22,7 @@ class Orders extends BaseAdmin
     /**
      * 订单列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -36,7 +36,7 @@ class Orders extends BaseAdmin
     /**
      * 交易列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getList(){
@@ -83,7 +83,7 @@ class Orders extends BaseAdmin
      * 3.商户
      * 4.结算
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -110,7 +110,7 @@ class Orders extends BaseAdmin
     /**
      * 退款列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -135,7 +135,7 @@ class Orders extends BaseAdmin
     /**
      * 商户订单统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function user(){
@@ -145,7 +145,7 @@ class Orders extends BaseAdmin
     /**
      * 商户交易统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function userList(){
@@ -180,7 +180,7 @@ class Orders extends BaseAdmin
     /**
      * 商户渠道统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function channel(){
@@ -191,7 +191,7 @@ class Orders extends BaseAdmin
     /**
      * 商户渠道统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function channelList(){
@@ -225,7 +225,7 @@ class Orders extends BaseAdmin
     /**
      * 这里还是写入队列
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      */

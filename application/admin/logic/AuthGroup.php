@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -25,7 +25,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 获取权限分组列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -42,7 +42,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 获取权限组总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return mixed
@@ -54,7 +54,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 权限组编辑
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data
      * @return array
@@ -90,7 +90,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 权限组删除
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      *
@@ -109,7 +109,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 获取权限组信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -124,7 +124,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 获取用户组权限节点
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -138,7 +138,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 设置用户组权限节点
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data
      * @return array
@@ -233,7 +233,7 @@ class AuthGroup extends BaseAdmin
     /**
      * 按参数$standard_rules_array权限节点数组标准，将参数$group_ids权限组ID数组下的权限节点全部更新
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $standard_rules_array
      * @param array $group_ids

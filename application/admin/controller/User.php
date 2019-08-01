@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -23,7 +23,7 @@ class User extends BaseAdmin
     /**
      * 商户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -35,7 +35,7 @@ class User extends BaseAdmin
     /**
      * 商户列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getList(){
@@ -79,7 +79,7 @@ class User extends BaseAdmin
     /**
      * 添加商户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -93,7 +93,7 @@ class User extends BaseAdmin
     /**
      * 编辑商户基本信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -109,7 +109,7 @@ class User extends BaseAdmin
     /**
      * 修改商户状态
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $id
      * @param bool $status
@@ -123,7 +123,7 @@ class User extends BaseAdmin
     /**
      * 删除商户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function del(){
@@ -141,7 +141,7 @@ class User extends BaseAdmin
     /**
      * 认证信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -152,7 +152,7 @@ class User extends BaseAdmin
     /**
      * 商户认证信息列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getAuthList(){
@@ -189,7 +189,7 @@ class User extends BaseAdmin
     /**
      * 认证详细信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -208,7 +208,7 @@ class User extends BaseAdmin
     /**
      * 分润设置
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed

@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -22,7 +22,7 @@ use think\Request;
 /**
  * 检验接口访问频率
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  */
 class CheckFrequent extends ApiCheck
@@ -32,7 +32,7 @@ class CheckFrequent extends ApiCheck
      *
      * 单位：seconds
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var int
      */
@@ -41,7 +41,7 @@ class CheckFrequent extends ApiCheck
     /**
      * 限定次数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var int
      */
@@ -49,7 +49,7 @@ class CheckFrequent extends ApiCheck
 
     /**
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param Request $request
      * @return mixed|void

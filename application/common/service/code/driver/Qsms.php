@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -20,7 +20,7 @@ use think\Log;
 /**
  * Class Qsms
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  */
 class Qsms extends Driver
@@ -53,7 +53,7 @@ class Qsms extends Driver
     /**
      * 发送短信
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $whom 手机号
      * @param array $data 附加数据
@@ -76,7 +76,7 @@ class Qsms extends Driver
     /**
      * 验证码检测
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $whom 手机号
      * @param bool $value 验证码值

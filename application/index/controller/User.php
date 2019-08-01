@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -24,7 +24,7 @@ class User extends Base
     /**
      * 商户首页
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -49,7 +49,7 @@ class User extends Base
     /**
      * 通知公告
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $id
      * @return mixed
@@ -64,7 +64,7 @@ class User extends Base
     /**
      * 订单月统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getOrderStat(){
@@ -81,7 +81,7 @@ class User extends Base
     /**
      * 商户信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -95,7 +95,7 @@ class User extends Base
     /**
      * 认证信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -116,7 +116,7 @@ class User extends Base
     /**
      * 密码管理
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -138,7 +138,7 @@ class User extends Base
     /**
      * 操作日志
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -161,7 +161,7 @@ class User extends Base
     /**
      * Common
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function common()
@@ -182,7 +182,7 @@ class User extends Base
     /**
      * 上传认证图片  加水印
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function uploadAuth(){
@@ -199,7 +199,7 @@ class User extends Base
     /**
      * 常见问题
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed

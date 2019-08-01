@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -21,7 +21,7 @@ class Admin extends BaseAdmin
     /**
      * 管理员列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -33,7 +33,7 @@ class Admin extends BaseAdmin
     /**
      * 获取管理员列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function userList(){
@@ -74,7 +74,7 @@ class Admin extends BaseAdmin
     /**
      * 管理员添加
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -88,7 +88,7 @@ class Admin extends BaseAdmin
 
     /**
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -105,7 +105,7 @@ class Admin extends BaseAdmin
     /**
      * 管理授权
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -124,7 +124,7 @@ class Admin extends BaseAdmin
     /**
      * 管理员删除
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $id
      */
@@ -136,7 +136,7 @@ class Admin extends BaseAdmin
     /**
      * 权限组列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -148,7 +148,7 @@ class Admin extends BaseAdmin
     /**
      * 获取权限组列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function groupList()
@@ -177,7 +177,7 @@ class Admin extends BaseAdmin
     /**
      * 权限组添加
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -204,7 +204,7 @@ class Admin extends BaseAdmin
     /**
      * 权限组删除
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $id
      */
@@ -218,7 +218,7 @@ class Admin extends BaseAdmin
     /**
      * 菜单授权
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -235,7 +235,7 @@ class Admin extends BaseAdmin
     /**
      * 获取权限菜单
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getAuthMenu(){
@@ -261,7 +261,7 @@ class Admin extends BaseAdmin
     /**
      * 管理员
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     private function userCommon(){
@@ -272,7 +272,7 @@ class Admin extends BaseAdmin
     /**
      * 权限组
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     private function groupCommon(){

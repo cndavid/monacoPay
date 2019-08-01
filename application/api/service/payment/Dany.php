@@ -20,7 +20,7 @@ class Dany extends ApiPayment
     /**
      * 支付宝支付
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -35,7 +35,7 @@ class Dany extends ApiPayment
     /**
      * 发起支付请求
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $type
      * @param $order
@@ -72,7 +72,7 @@ class Dany extends ApiPayment
     /**
      * 构建参数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $para
      *
@@ -100,7 +100,7 @@ class Dany extends ApiPayment
     /**
      * 参数签名
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $para_sort
      *
@@ -118,7 +118,7 @@ class Dany extends ApiPayment
     /**
      * 规则
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $prestr
      * @param $key
@@ -133,7 +133,7 @@ class Dany extends ApiPayment
     /**
      * 参数规则
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $para
      *

@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -21,7 +21,7 @@ use Endroid\QrCode\QrCode;
 /**
  * 二维码服务
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  */
 class QrcodeLib
@@ -60,7 +60,7 @@ class QrcodeLib
     /**
      * 生成二维码
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $content
      * @return array|string
@@ -105,7 +105,7 @@ class QrcodeLib
     /**
      * 生成文件
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $file_name
      * @return array

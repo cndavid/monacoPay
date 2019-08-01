@@ -1,20 +1,20 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
 /**
  * 系统环境检测
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @return array
  */
@@ -61,7 +61,7 @@ function check_env()
 /**
  * 目录，文件读写检测
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @return array
  */
@@ -109,7 +109,7 @@ function check_dirfile()
 /**
  * 函数检测
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @return array
  */
@@ -138,7 +138,7 @@ function check_func()
 /**
  * 创建数据表
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $db_object
  * @param string $prefix
@@ -179,7 +179,7 @@ function create_tables($db_object, $prefix = '')
 /**
  * 生成系统AUTH_KEY
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @return bool|string
  */
@@ -195,7 +195,7 @@ function build_auth_key()
 /**
  * 站点配置
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $db_object
  * @param $prefix
@@ -214,7 +214,7 @@ function create_config($db_object, $prefix, $site){
 /**
  * 创建管理员
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $db_object
  * @param $prefix
@@ -243,7 +243,7 @@ function create_admin($db_object, $prefix, $admin)
 /**
  * 写入配置文件
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $config
  *
@@ -274,7 +274,7 @@ function write_config($config)
 
 /**
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @param $dir
  *

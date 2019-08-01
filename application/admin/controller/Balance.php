@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -21,7 +21,7 @@ class Balance extends BaseAdmin
     /**
      * 资产
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -32,7 +32,7 @@ class Balance extends BaseAdmin
     /**
      * 商户资产列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getList(){
@@ -67,7 +67,7 @@ class Balance extends BaseAdmin
     /**
      * 商户账户收支明细信息（仅做记录）
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -79,7 +79,7 @@ class Balance extends BaseAdmin
     /**
      * 获取商户账户收支明细信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getDetails(){
@@ -114,7 +114,7 @@ class Balance extends BaseAdmin
     /**
      * 打款记录(仅作记录)
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -125,7 +125,7 @@ class Balance extends BaseAdmin
     /**
      * 获取打款记录API
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function paidList(){
@@ -161,7 +161,7 @@ class Balance extends BaseAdmin
     /**
      * 通过  提交队列后台打款
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      */
@@ -173,7 +173,7 @@ class Balance extends BaseAdmin
     /**
      * 驳回申请
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      */

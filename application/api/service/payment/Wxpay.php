@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -24,7 +24,7 @@ class Wxpay extends ApiPayment
     /**
      * 微信扫码支付
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -44,7 +44,7 @@ class Wxpay extends ApiPayment
     /**
      * 微信公众号支付【待测】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -71,7 +71,7 @@ class Wxpay extends ApiPayment
     /**
      * 微信APP支付【待测】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -99,7 +99,7 @@ class Wxpay extends ApiPayment
     /**
      * 小程序支付【待测】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -133,7 +133,7 @@ class Wxpay extends ApiPayment
      * 4.支付请求已失效，请重新发起支付（原因：有效期为5分钟，如超时请重新发起支付）
      * 5.请在微信外打开订单，进行支付（原因：H5支付不能直接在微信客户端内调起）
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -152,7 +152,7 @@ class Wxpay extends ApiPayment
     /**
      * 异步回调地址 /默认按类名称  【 https://pay.iredcap.cn/notify/wxpay 】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return array
@@ -165,7 +165,7 @@ class Wxpay extends ApiPayment
     /**
      * 同步地址 【待测】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed
@@ -185,7 +185,7 @@ class Wxpay extends ApiPayment
     /**
      * 微信预下单
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      * @param string $trade_type
@@ -239,7 +239,7 @@ class Wxpay extends ApiPayment
     /**
      * 回调验签
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return array
@@ -266,7 +266,7 @@ class Wxpay extends ApiPayment
     /**
      * 获取微信签名
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $params
      * @param $key
@@ -284,7 +284,7 @@ class Wxpay extends ApiPayment
     /**
      * 微信字符串排序
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $paraMap
      *

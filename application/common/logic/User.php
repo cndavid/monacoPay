@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -24,7 +24,7 @@ class User extends BaseLogic
     /**
      * 获取商户列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -48,7 +48,7 @@ class User extends BaseLogic
     /**
      * 获取商户认证列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -66,7 +66,7 @@ class User extends BaseLogic
     /**
      * 获取用户总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -78,7 +78,7 @@ class User extends BaseLogic
     /**
      * 获取用户认证数据总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -90,7 +90,7 @@ class User extends BaseLogic
     /**
      * 获取商户信息详情
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -104,7 +104,7 @@ class User extends BaseLogic
     /**
      * 获取认证信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -118,7 +118,7 @@ class User extends BaseLogic
     /**
      * 获取费率详情
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -132,7 +132,7 @@ class User extends BaseLogic
     /**
      * 获取费率列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -199,7 +199,7 @@ class User extends BaseLogic
     /**
      * 编辑商户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @return array
@@ -242,7 +242,7 @@ class User extends BaseLogic
     /**
      * 认证信息保存
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      *
@@ -281,7 +281,7 @@ class User extends BaseLogic
     /**
      * 分润配置
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      *
@@ -305,7 +305,7 @@ class User extends BaseLogic
     /**
      * 修改密码
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      *
@@ -367,7 +367,7 @@ class User extends BaseLogic
     /**
      * 设置信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field

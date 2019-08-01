@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -26,7 +26,7 @@ class Login extends Base
     /**
      * 登录操作
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $username 账号
      * @param string $password  密码
@@ -75,7 +75,7 @@ class Login extends Base
     /**
      * 用户注册
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data 注册数据
      * @return array
@@ -125,7 +125,7 @@ class Login extends Base
     /**
      * 数据检测
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $field
      * @param string $value
@@ -143,7 +143,7 @@ class Login extends Base
     /**
      * 发送激活邮件
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $account
      * @return array
@@ -170,7 +170,7 @@ class Login extends Base
      * 3.code校验
      * 4.End
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $code
      * @return array|mixed
@@ -220,7 +220,7 @@ class Login extends Base
     /**
      * 注销当前用户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return string
      */

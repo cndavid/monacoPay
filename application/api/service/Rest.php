@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -39,7 +39,7 @@ class Rest extends BaseApi
     /**
      * 创建当前请求上下文
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @throws ParameterException
      */
@@ -56,7 +56,7 @@ class Rest extends BaseApi
     /**
      * 销毁当前请求上下文
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @throws ParameterException
      */
@@ -71,7 +71,7 @@ class Rest extends BaseApi
     /**
      * 判断当前请求上下文是否存在
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return bool
      */
@@ -83,7 +83,7 @@ class Rest extends BaseApi
     /**
      * 获取上下文数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $name
      * @param null $default
@@ -110,7 +110,7 @@ class Rest extends BaseApi
     /**
      * 设置上下文数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $name
      * @param $value
@@ -129,7 +129,7 @@ class Rest extends BaseApi
     /**
      * 获取当前上下文
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed
@@ -147,7 +147,7 @@ class Rest extends BaseApi
     /**
      * 获取当前的服务器对象
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -159,7 +159,7 @@ class Rest extends BaseApi
     /**
      * 在当前服务器上下文中获取Bean对象
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $name
      * @param $params
@@ -173,7 +173,7 @@ class Rest extends BaseApi
     /**
      * 获取当前时间的毫秒数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return float
      */
@@ -185,7 +185,7 @@ class Rest extends BaseApi
     /**
      * 生成唯一id[32位]
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $namespace
      * @return string
@@ -212,7 +212,7 @@ class Rest extends BaseApi
     /**
      * 生成平台签名字符串
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $to_sign_data
      *
@@ -240,7 +240,7 @@ class Rest extends BaseApi
     /**
      * 数据验签  -- 验证来自商户的数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @param $sign

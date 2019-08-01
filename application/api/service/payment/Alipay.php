@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -23,7 +23,7 @@ class Alipay extends ApiPayment
     /**
      * 支付宝扫码支付
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      *
@@ -64,7 +64,7 @@ class Alipay extends ApiPayment
     /**
      * 异步回调地址 /默认按类名称  【 https://pay.iredcap.cn/notify/alipay 】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return array
@@ -78,7 +78,7 @@ class Alipay extends ApiPayment
     /**
      * 同步地址 【待测】
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed
@@ -97,7 +97,7 @@ class Alipay extends ApiPayment
     /**
      * 支付宝统一
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $requestConfigs
      * @param string $trade_type
@@ -143,7 +143,7 @@ class Alipay extends ApiPayment
     /**
      * 回调验签
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return array
@@ -174,7 +174,7 @@ class Alipay extends ApiPayment
     /**
      * 支付宝签名
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $params
      * @param $signType
@@ -190,7 +190,7 @@ class Alipay extends ApiPayment
     /**
      * 签名
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @param string $signType
@@ -227,7 +227,7 @@ class Alipay extends ApiPayment
     /**
      * 验证
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @param $sign
@@ -265,7 +265,7 @@ class Alipay extends ApiPayment
     /**
      * 校验$value是否非空
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $value
      *
@@ -284,7 +284,7 @@ class Alipay extends ApiPayment
     /**
      * 签名排序
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $params
      * @param $verify
@@ -317,7 +317,7 @@ class Alipay extends ApiPayment
     /**
      * 编码转换
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $array
      * @param $to_encoding

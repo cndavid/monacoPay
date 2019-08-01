@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -23,7 +23,7 @@ class Pay extends BaseLogic
     /**
      * 下单时通过pay_code 获取渠道下的可用商户配置
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order
      * @return mixed
@@ -99,7 +99,7 @@ class Pay extends BaseLogic
     /**
      * 获取所有支持的支付方式
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -110,7 +110,7 @@ class Pay extends BaseLogic
     /**
      * 获取支付方式列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param $field
@@ -124,7 +124,7 @@ class Pay extends BaseLogic
     /**
      * 获取支付方式总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -136,7 +136,7 @@ class Pay extends BaseLogic
     /**
      * 获取渠道列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param $field
@@ -150,7 +150,7 @@ class Pay extends BaseLogic
     /**
      * 获取渠道总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -162,7 +162,7 @@ class Pay extends BaseLogic
     /**
      * 获取渠道账户列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param $field
@@ -176,7 +176,7 @@ class Pay extends BaseLogic
     /**
      * 获取渠道账户总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -188,7 +188,7 @@ class Pay extends BaseLogic
     /**
      * 获取渠道信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -202,7 +202,7 @@ class Pay extends BaseLogic
     /**
      * 获取渠道账户信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -216,7 +216,7 @@ class Pay extends BaseLogic
     /**
      * 获取支付方式信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -230,7 +230,7 @@ class Pay extends BaseLogic
     /**
      * 添加一个渠道
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @return array|string
@@ -270,7 +270,7 @@ class Pay extends BaseLogic
     /**
      * 添加一个渠道账户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @return array|string
@@ -311,7 +311,7 @@ class Pay extends BaseLogic
     /**
      * 添加一个方式
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @return array|string
@@ -349,7 +349,7 @@ class Pay extends BaseLogic
     /**
      * 改变渠道可用性
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @param int $value
@@ -371,7 +371,7 @@ class Pay extends BaseLogic
     /**
      * 删除一个方式
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return array
@@ -393,7 +393,7 @@ class Pay extends BaseLogic
     /**
      * 删除一个渠道
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return array
@@ -414,7 +414,7 @@ class Pay extends BaseLogic
     /**
      * 删除一个渠道账户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return array

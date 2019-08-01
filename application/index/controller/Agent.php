@@ -12,7 +12,7 @@ class Agent extends Base
     /**
      * 获取数据统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed
@@ -26,7 +26,7 @@ class Agent extends Base
     /**
      * 下级交易明细
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed
@@ -56,7 +56,7 @@ class Agent extends Base
     /**
      * 下级分润比例
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed
@@ -68,7 +68,7 @@ class Agent extends Base
     /**
      * 新增下级商户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed
@@ -89,7 +89,7 @@ class Agent extends Base
     /**
      * 编辑商户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      *
      * @return mixed

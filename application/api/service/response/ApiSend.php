@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -27,7 +27,7 @@ abstract class ApiSend extends ApiRespose
     /**
      * 通知报文
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var
      */
@@ -36,7 +36,7 @@ abstract class ApiSend extends ApiRespose
     /**
      * 下一个check实体
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var
      */
@@ -45,7 +45,7 @@ abstract class ApiSend extends ApiRespose
     /**
      * 构建方法
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $chargeRespose
      * @return mixed
@@ -55,7 +55,7 @@ abstract class ApiSend extends ApiRespose
     /**
      * 设置责任链上的下一个对象
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param ApiSend $check
      * @return ApiSend
@@ -69,7 +69,7 @@ abstract class ApiSend extends ApiRespose
     /**
      * 启动
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $chargeRespose
      */

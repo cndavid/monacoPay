@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -22,7 +22,7 @@ namespace app\common\library;
  * Notice:Only accepts a single block. Block size is equal to the RSA key size!
  * 如密钥长度为1024 bit，则加密时数据需小于128字节，加上PKCS1Padding本身的11字节信息，所以明文需小于117字节
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  * @version: 1.0.0
  * @date: 2018/05/30
  */
@@ -54,7 +54,7 @@ class RsaUtils
      * 加密只支持PKCS1_PADDING
      * 解密支持PKCS1_PADDING和NO_PADDING
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int 填充模式
      * @param string 加密en/解密de
@@ -86,7 +86,7 @@ class RsaUtils
     /**
      * 加密
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $data 加密数据
      * @param string $code 加密类型
@@ -110,7 +110,7 @@ class RsaUtils
     /**
      * 解密
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $data   加密数据
      * @param string $code  加密类型
@@ -134,7 +134,7 @@ class RsaUtils
     /**
      * 读取文件
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $file
      *
@@ -151,7 +151,7 @@ class RsaUtils
     /**
      * Hex2bin
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param bool $hex
      * @return bool|string
@@ -165,7 +165,7 @@ class RsaUtils
     /**
      * 设置公钥
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $file
      *
@@ -185,7 +185,7 @@ class RsaUtils
     /**
      * 设置私钥
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $file
      *
@@ -209,7 +209,7 @@ class RsaUtils
     /**
      * 生成签名
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string 签名材料
      * @param string 签名编码（base64/hex/bin）
@@ -227,7 +227,7 @@ class RsaUtils
     /**
      * 验证签名
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string 签名材料
      * @param string 签名值
@@ -255,7 +255,7 @@ class RsaUtils
     /**
      * 加密
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string 明文
      * @param string 密文编码（base64/hex/bin）
@@ -275,7 +275,7 @@ class RsaUtils
     /**
      * 解密
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string 密文
      * @param string 密文编码（base64/hex/bin）
@@ -299,7 +299,7 @@ class RsaUtils
     /**
      * 生成证书
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $filename
      *

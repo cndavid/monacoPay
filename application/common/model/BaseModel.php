@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -21,7 +21,7 @@ use think\Model;
 /**
  * Class BaseModel
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  */
 class BaseModel extends Model
@@ -36,7 +36,7 @@ class BaseModel extends Model
     /**
      * 连接查询
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var array
      */
@@ -45,7 +45,7 @@ class BaseModel extends Model
     /**
      * 是否锁
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var
      */
@@ -53,7 +53,7 @@ class BaseModel extends Model
 
     /**
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data
      * @param array $where
@@ -85,7 +85,7 @@ class BaseModel extends Model
     /**
      * 更新数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param array $data
@@ -102,7 +102,7 @@ class BaseModel extends Model
     /**
      * 统计数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $stat_type
@@ -117,7 +117,7 @@ class BaseModel extends Model
     /**
      * 数据增减
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $action_type
@@ -133,7 +133,7 @@ class BaseModel extends Model
     /**
      * 设置数据列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $data_list
      * @param bool $replace
@@ -151,7 +151,7 @@ class BaseModel extends Model
     /**
      * 设置某个字段值
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -167,7 +167,7 @@ class BaseModel extends Model
     /**
      * 删除数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $is_true
@@ -191,7 +191,7 @@ class BaseModel extends Model
     /**
      * 获取某个列的数组
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -206,7 +206,7 @@ class BaseModel extends Model
     /**
      * 获取总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -221,7 +221,7 @@ class BaseModel extends Model
     /**
      * 获取某个字段的值
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -238,7 +238,7 @@ class BaseModel extends Model
     /**
      * 获取单条数据
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -262,7 +262,7 @@ class BaseModel extends Model
      * 获取列表数据
      * 若不需要分页 $paginate 设置为 false
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -313,7 +313,7 @@ class BaseModel extends Model
     /**
      * 原生查询
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $sql
      * @return mixed
@@ -327,7 +327,7 @@ class BaseModel extends Model
     /**
      * 原生执行
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $sql
      * @return int
@@ -341,7 +341,7 @@ class BaseModel extends Model
     /**
      * 重写获取器 兼容 模型|逻辑|验证|服务 层实例获取
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $name
      * @return mixed|Model|\think\Validate
@@ -363,7 +363,7 @@ class BaseModel extends Model
     /**
      * 获取层前缀
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $name
      * @return bool|mixed

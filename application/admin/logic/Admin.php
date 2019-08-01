@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -24,7 +24,7 @@ class Admin extends BaseAdmin
     /**
      * 获取管理员列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -40,7 +40,7 @@ class Admin extends BaseAdmin
     /**
      * 获取管理员总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return mixed
@@ -52,7 +52,7 @@ class Admin extends BaseAdmin
     /**
      * 获取管理员信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -67,7 +67,7 @@ class Admin extends BaseAdmin
     /**
      * 管理信息存储
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @return array
@@ -108,7 +108,7 @@ class Admin extends BaseAdmin
     /**
      * 修改密码
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      *
@@ -146,7 +146,7 @@ class Admin extends BaseAdmin
     /**
      * 设置管理员信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -161,7 +161,7 @@ class Admin extends BaseAdmin
     /**
      * 授权用户组
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $data
      * @return array
@@ -208,7 +208,7 @@ class Admin extends BaseAdmin
     /**
      * 获取管理员的所有下级
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $id
      * @param array $data
@@ -238,7 +238,7 @@ class Admin extends BaseAdmin
     /**
      * 删除管理员
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      *

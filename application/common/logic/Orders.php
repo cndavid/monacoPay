@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -43,7 +43,7 @@ class Orders extends BaseLogic
     /**
      * 获取订单信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool|string $field
@@ -57,7 +57,7 @@ class Orders extends BaseLogic
     /**
      * 获取订单异步信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -71,7 +71,7 @@ class Orders extends BaseLogic
     /**
      * 获取单总数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $where
      * @return mixed
@@ -83,7 +83,7 @@ class Orders extends BaseLogic
     /**
      * 订单统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return array
@@ -97,7 +97,7 @@ class Orders extends BaseLogic
     /**
      * 获取控制台统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return array
@@ -115,7 +115,7 @@ class Orders extends BaseLogic
     /**
      * 年月订单以及交易额统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return array|mixed
@@ -128,7 +128,7 @@ class Orders extends BaseLogic
     /**
      * 获取商户订单统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -144,7 +144,7 @@ class Orders extends BaseLogic
     /**
      * 获取渠道订单统计
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field
@@ -167,7 +167,7 @@ class Orders extends BaseLogic
     /**
      * 获取某订单支付通道配置
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order_no
      * @return mixed
@@ -183,7 +183,7 @@ class Orders extends BaseLogic
     /**
      * 推送队列
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $order_id
      * @return array
@@ -204,7 +204,7 @@ class Orders extends BaseLogic
     /**
      * 创建支付订单
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $orderData
      * @return mixed
@@ -253,7 +253,7 @@ class Orders extends BaseLogic
     /**
      * 设置某个字段参数
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param string $field

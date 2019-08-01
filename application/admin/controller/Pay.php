@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -21,7 +21,7 @@ class Pay extends BaseAdmin
     /**
      * 支付方式
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -33,7 +33,7 @@ class Pay extends BaseAdmin
     /**
      * 支付渠道
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -44,7 +44,7 @@ class Pay extends BaseAdmin
     /**
      * 支付渠道账户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -56,7 +56,7 @@ class Pay extends BaseAdmin
     /**
      * 银行
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -67,7 +67,7 @@ class Pay extends BaseAdmin
     /**
      * 支付渠道列表
      * @url getChannelList?page=1&limit=10
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getCodeList(){
@@ -101,7 +101,7 @@ class Pay extends BaseAdmin
     /**
      * 支付渠道列表
      * @url getChannelList?page=1&limit=10
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getChannelList(){
@@ -136,7 +136,7 @@ class Pay extends BaseAdmin
     /**
      * 支付渠道账户列表
      * @url getChannelList?page=1&limit=10
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getAccountList(){
@@ -173,7 +173,7 @@ class Pay extends BaseAdmin
     /**
      * 支付渠道列表
      * @url getChannelList?page=1&limit=10
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function getBankList(){
@@ -204,7 +204,7 @@ class Pay extends BaseAdmin
     /**
      * 新增支付渠道
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -218,7 +218,7 @@ class Pay extends BaseAdmin
     /**
      * 新增渠道账户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -243,7 +243,7 @@ class Pay extends BaseAdmin
     /**
      * 新增支付方式
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -260,7 +260,7 @@ class Pay extends BaseAdmin
     /**
      * 新增支付银行
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -275,7 +275,7 @@ class Pay extends BaseAdmin
     /**
      * 编辑支付渠道
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -295,7 +295,7 @@ class Pay extends BaseAdmin
     /**
      * 编辑支付渠道
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -321,7 +321,7 @@ class Pay extends BaseAdmin
     /**
      * 编辑支付方式
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -339,7 +339,7 @@ class Pay extends BaseAdmin
     /**
      * 编辑支付银行
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */
@@ -355,7 +355,7 @@ class Pay extends BaseAdmin
     /**
      * 删除支付方式
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function delCode(){
@@ -374,7 +374,7 @@ class Pay extends BaseAdmin
     /**
      * 删除渠道
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function delChannel(){
@@ -393,7 +393,7 @@ class Pay extends BaseAdmin
     /**
      * 删除渠道账户
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function delAccount(){

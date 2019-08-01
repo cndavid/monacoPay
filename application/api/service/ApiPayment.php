@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -21,7 +21,7 @@ class ApiPayment
     /**
      * 支付配置
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var array
      */
@@ -40,7 +40,7 @@ class ApiPayment
     /**
      * 魔术方法
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $method
      * @param array $params
@@ -58,7 +58,7 @@ class ApiPayment
     /**
      * 构建
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $method
      * @return mixed
@@ -79,7 +79,7 @@ class ApiPayment
     /**
      * curl get
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $url
      * @param array $options
@@ -104,7 +104,7 @@ class ApiPayment
     /**
      * curl post
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $url
      * @param string $postData
@@ -136,7 +136,7 @@ class ApiPayment
     /**
      * 随机字符串
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $length
      * @return string
@@ -154,7 +154,7 @@ class ApiPayment
     /**
      * 数组转Xml
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $arr
      * @return string
@@ -175,7 +175,7 @@ class ApiPayment
     /**
      * Xml转数组
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $xml
      * @return mixed
@@ -191,7 +191,7 @@ class ApiPayment
     /**
      * 依据订单号获取配置
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $out_trade_no
      *
@@ -208,7 +208,7 @@ class ApiPayment
     /**
      * 依据订单号获取订单同步地址
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $out_trade_no
      *

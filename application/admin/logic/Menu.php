@@ -1,13 +1,13 @@
 <?php
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -29,7 +29,7 @@ class Menu extends BaseAdmin
     /**
      * 菜单转视图
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $menu_list
      * @param string $child
@@ -84,7 +84,7 @@ class Menu extends BaseAdmin
     /**
      * 菜单转Select
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $menu_list
      * @param int $level
@@ -183,7 +183,7 @@ class Menu extends BaseAdmin
     /**
      * 获取自己及父菜单列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param int $menu_id
      */
@@ -219,7 +219,7 @@ class Menu extends BaseAdmin
     /**
      * 获取菜单列表
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -236,7 +236,7 @@ class Menu extends BaseAdmin
     /**
      * 获取菜单信息
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param bool $field
@@ -251,7 +251,7 @@ class Menu extends BaseAdmin
     /**
      * 菜单数据修改
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return array
      */
@@ -275,7 +275,7 @@ class Menu extends BaseAdmin
     /**
      * 菜单删除
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @return array
@@ -291,7 +291,7 @@ class Menu extends BaseAdmin
     /**
      * 获取默认页面标题
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @return mixed
      */

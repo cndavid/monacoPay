@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -26,7 +26,7 @@ class File extends BaseLogic
     /**
      * 上传文件
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $name
      * @param string $path_name
@@ -58,7 +58,7 @@ class File extends BaseLogic
     /**
      * 图片上传
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $name
      * @param string $path_name
@@ -109,7 +109,7 @@ class File extends BaseLogic
     /**
      * 保存64位编码图片
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $base64_image_content
      * @param $path_name
@@ -185,7 +185,7 @@ class File extends BaseLogic
     /**
      * 上传公钥
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      */
     public function uploadRsaPublicKey(){

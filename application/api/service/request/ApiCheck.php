@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -20,7 +20,7 @@ use think\Request;
 /**
  * 网关检验抽象类
  *
- * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+ * 
  *
  * @package app\api\logic\gateway
  */
@@ -29,7 +29,7 @@ abstract class ApiCheck extends ApiRequest
     /**
      * 下一个check实体
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @var
      */
@@ -38,7 +38,7 @@ abstract class ApiCheck extends ApiRequest
     /**
      * 校验方法
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param Request $request
      * @return mixed
@@ -48,7 +48,7 @@ abstract class ApiCheck extends ApiRequest
     /**
      * 设置责任链上的下一个对象
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param ApiCheck $check
      * @return ApiCheck
@@ -62,7 +62,7 @@ abstract class ApiCheck extends ApiRequest
     /**
      * 启动
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param Request $request
      */

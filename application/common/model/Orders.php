@@ -2,13 +2,13 @@
 
 /**
  *  +----------------------------------------------------------------------
- *  | 草帽支付系统 [ WE CAN DO IT JUST THINK ]
+ *  |  [ WE CAN DO IT JUST THINK ]
  *  +----------------------------------------------------------------------
  *  | Copyright (c) 2018 http://www.monapay.com All rights reserved.
  *  +----------------------------------------------------------------------
  *  | Licensed ( https://www.apache.org/licenses/LICENSE-2.0 )
  *  +----------------------------------------------------------------------
- *  | Author: Brian Waring <BrianWaring98@gmail.com>
+ *  | 
  *  +----------------------------------------------------------------------
  */
 
@@ -26,7 +26,7 @@ class Orders extends BaseModel
     /**
      * 订单状态检查
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param $orderNo
      * @return Orders|null
@@ -56,7 +56,7 @@ class Orders extends BaseModel
     /**
      * 获取平台订单
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $tradeOrderNo 平台订单号
      * @return Orders|bool|null
@@ -73,7 +73,7 @@ class Orders extends BaseModel
     /**
      * 获取商户订单
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param string $outTradeOrderNo 商户订单号
      * @return Orders|bool|null
@@ -90,7 +90,7 @@ class Orders extends BaseModel
     /**
      * 改变订单状态
      *
-     * @author 勇敢的小笨羊 <brianwaring98@gmail.com>
+     * 
      *
      * @param array $where
      * @param array $data
