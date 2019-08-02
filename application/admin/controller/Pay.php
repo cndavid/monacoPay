@@ -64,6 +64,10 @@ class Pay extends BaseAdmin
         return $this->fetch();
     }
 
+    public function qrcode(){
+        return $this->fetch();
+    }
+
     /**
      * 支付渠道列表
      * @url getChannelList?page=1&limit=10
@@ -201,6 +205,31 @@ class Pay extends BaseAdmin
             ]);
     }
 
+    public function getQrcodeList(){
+
+        $where = [];
+        //组合搜索
+        !empty($this->request->param('keywords')) && $where['id|name']
+            = ['like', '%'.$this->request->param('keywords').'%'];
+
+        $data = $this->logicQrcode->getQrcodeList($where,true, 'create_time desc',false);
+
+        $count = $this->logicQrcode->getQrcodeCount($where);
+
+        $this->result($data || !empty($data) ?
+            [
+                'code' => CodeEnum::SUCCESS,
+                'msg'=> '',
+                'count'=>$count,
+                'data'=>$data
+            ] : [
+                'code' => CodeEnum::ERROR,
+                'msg'=> '暂无数据',
+                'count'=>$count,
+                'data'=>$data
+            ]);
+    }
+
     /**
      * 新增支付渠道
      *
@@ -268,6 +297,15 @@ class Pay extends BaseAdmin
     {
         // post 是提交数据
         $this->request->isPost() && $this->result($this->logicBank->saveBankInfo($this->request->post()));
+
+        return $this->fetch();
+    }
+
+
+    public function addQrcode()
+    {
+        // post 是提交数据
+        $this->request->isPost() && $this->result($this->logicQrcode->saveQrcodeInfo($this->request->post()));
 
         return $this->fetch();
     }

@@ -258,7 +258,7 @@ class Article extends BaseAdmin
      * 
      *
      */
-    public function uploadPicture(){
+    public function upload(){
         $this->request->isPost() && $this->result($this->logicFile->picUpload('pic','attachments/'));
     }
 
