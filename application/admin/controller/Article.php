@@ -259,7 +259,7 @@ class Article extends BaseAdmin
      *
      */
     public function upload(){
-        $this->request->isPost() && $this->result($this->logicFile->picUpload('pic','attachments/'));
+        $this->request->isPost() && $this->result($this->logicFile->picUpload('file','attachments/'));
     }
 
     /**

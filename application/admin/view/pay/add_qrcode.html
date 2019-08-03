@@ -29,12 +29,21 @@
             <input type="text" name="name" required lay-verify="required" placeholder="请输入学员名称" autocomplete="off" class="layui-input" value="">
         </div>
     </div>
+
+
     <div class="layui-form-item">
-        <label class="layui-form-label">二维码上传：</label>
+        <label class="layui-form-label">二维码：</label>
         <div class="layui-input-block">
-            <input type="file" name="qrcode_url" lay-filter="qrcode_url">
+            <div class="layui-upload">
+                <button type="button" class="layui-btn" id="test1">
+                    <i class="layui-icon">&#xe67c;</i>上传图片
+                </button>
+            </div>
         </div>
     </div>
+
+    <input type="hidden" name="qrcode_url" value="" id="qrcode_url">
+
 
     <div class="layui-form-item">
         <label class="layui-form-label">状态：</label>
@@ -61,6 +70,26 @@
             ,form = layui.form;
 
     })
+
+
+    layui.use('upload', function(){
+        var upload = layui.upload;
+
+        //执行实例
+        var uploadInst = upload.render({
+            elem: '#test1' //绑定元素
+            ,url: '/admin/article/upload/' //上传接口
+            ,done: function(res){
+                //上传完毕回调
+                // $('#qrcode_url').val(res.data.src);
+                document.getElementById('qrcode_url').value = res.data.src;
+                return layer.msg('上传成功');
+            }
+            ,error: function(){
+                //请求异常回调
+            }
+        });
+    });
 </script>
 </body>
 </html>

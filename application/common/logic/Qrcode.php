@@ -78,4 +78,5 @@ class Qrcode extends BaseLogic
             Log::error("Create Order Error:[{$e->getMessage()}]");
         }
     }
+
 }
