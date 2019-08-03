@@ -68,6 +68,18 @@ class Pay extends BaseAdmin
         return $this->fetch();
     }
 
+    public function delQrcode(){
+        // post 是提交数据
+        $this->request->isPost() && $this->result(
+            $this->logicQrcode->delQrcode(
+                [
+                    'id' => $this->request->param('id')
+                ])
+        );
+
+        // get 直接报错
+        $this->error('未知错误');
+    }
     /**
      * 支付渠道列表
      * @url getChannelList?page=1&limit=10

@@ -12,6 +12,7 @@
  */
 
 namespace app\common\logic;
+use app\common\library\enum\CodeEnum;
 use app\common\library\exception\OrderException;
 use think\Db;
 use think\Log;
@@ -76,6 +77,20 @@ class Qrcode extends BaseLogic
         }catch (\Exception $e){
             //记录日志
             Log::error("Create Order Error:[{$e->getMessage()}]");
+        }
+    }
+
+    public function delQrcode($where){
+        Db::startTrans();
+        try{
+            $this->modelQrcode->deleteInfo($where);
+            action_log('删除', '删除，ID：'. $where['id']);
+            Db::commit();
+            return [ 'code' => CodeEnum::SUCCESS, 'msg' => '删除方式成功'];
+        }catch (\Exception $ex){
+            Db::rollback();
+            Log::error($ex->getMessage());
+            return [ 'code' => CodeEnum::ERROR,  'msg' => config('app_debug') ? $ex->getMessage() : '删除失败'];
         }
     }
 
