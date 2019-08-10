@@ -104,3 +104,8 @@ Route::get('active/:code','index/Login/checkActiveCode');
  */
 Route::get('validate/gt-start','index/Login/startGeetest');
 Route::post('validate/gt-verify','index/Login/checkGeetest');
+
+/**
+ * 学员订单查询、确认到账
+ */
+Route::get('userorders$','index/UserOrder/index');
