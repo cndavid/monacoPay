@@ -71,13 +71,13 @@ class Qrcode extends BaseLogic
 
         try {
         $qrcode = new Qrcode();
-        $qrcode->uname = $qrcodeData['name']; //商户ID
-        $qrcode->qrcode_url = $qrcodeData['qrcode_url'];//支付项目
-        $qrcode->status = $qrcodeData['status'];//支付具体内容
+//        $qrcode->uname = $qrcodeData['name']; //商户ID
+//        $qrcode->qrcode_url = $qrcodeData['qrcode_url'];//支付项目
+//        $qrcode->status = $qrcodeData['status'];//支付具体内容
 
-        $qrcode->save();
+        $qrcode->update($qrcodeData,['id',$qrcodeData['id']]);
 
-        return [ 'code' => 1, 'msg' => '添加成功','data' => $qrcode];
+        return [ 'code' => 1, 'msg' => '编辑成功','data' => $qrcode];
 
         }catch (\Exception $e){
             //记录日志

@@ -386,6 +386,7 @@ class Pay extends BaseAdmin
         return $this->fetch();
     }
 
+
     /**
      * 编辑支付银行
      *
@@ -398,6 +399,14 @@ class Pay extends BaseAdmin
         $this->request->isPost() && $this->result($this->logicBanker->savelogicBank->saveBankerInfo($this->request->post()));
         //获取支付方式详细信息
         $this->assign('bank',$this->logicBanker->getBankerInfo(['id' =>$this->request->param('id')]));
+
+        return $this->fetch();
+    }
+    public function editqrcode(){
+        // post 是提交数据
+        $this->request->isPost() && $this->result($this->logicQrcode->saveQrcodeInfo($this->request->post()));
+        //获取支付方式详细信息
+        $this->assign('bank',$this->logicQrcode->getQrcodeInfo(['id' =>$this->request->param('id')]));
 
         return $this->fetch();
     }
