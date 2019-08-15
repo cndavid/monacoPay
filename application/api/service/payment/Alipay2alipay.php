@@ -37,7 +37,7 @@ class Alipay2alipay extends ApiPayment
 //        $picurl = 'http://'.$_SERVER["HTTP_HOST"].'/qrcode/qrcode.png';
 
         return [
-            'qrcode'  => $qrcode['qrcode_url']
+            'qrcode'  => $host.$qrcode['qrcode_url']
         ];
     }
 }
