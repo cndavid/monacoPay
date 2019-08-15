@@ -26,6 +26,8 @@ class Alipay2alipay extends ApiPayment
         $data['qrcode_username'] = $qrcode['uname'] ;
         $orders->update($data,['id' => $order['id']]);
 
+        $host = 'http://'. $_SERVER["HTTP_HOST"] ;
+
 //
 //        $str = 'alipays://platformapi/startapp?appId=09999988&actionType=toAccount&goBack=NO&amount='.$order['amount'].'&userId=2088102622931941&memo='.$order['out_trade_no'];
 //

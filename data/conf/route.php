@@ -112,3 +112,4 @@ Route::post('validate/gt-verify','index/Login/checkGeetest');
 Route::get('userorders','index/UserOrder/index');
 Route::get('userorders/list$','index/UserOrder/list');
 Route::get('userorders/done_order$','index/UserOrder/done_order');
+Route::get('userorders/switch','index/UserOrder/switch');
