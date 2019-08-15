@@ -24,6 +24,7 @@ use think\Route;
 Route::rule('pay/cashier','api/Pay/cashier');//收银台
 Route::post('pay/unifiedorder','api/Pay/unifiedorder');//统一下单
 Route::post('pay/orderquery','api/Pay/orderquery');//查询订单
+Route::get('pay/test','api/Pay/test');
 /**
  * Notify
  */

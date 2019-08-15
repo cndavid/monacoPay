@@ -68,4 +68,8 @@ class Pay extends BaseApi
         ApiRespose::send($this->logicPrePay->orderQuery($this->request->post()));
     }
 
+    public function test(){
+        //传入预支付订单信息 => 支付对象返回
+        ApiRespose::send($this->logicDoPay->pay('B20190126163755126244'));
+    }
 }

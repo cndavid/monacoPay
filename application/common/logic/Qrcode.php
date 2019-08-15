@@ -34,6 +34,11 @@ class Qrcode extends BaseLogic
     public function getQrcodeList($where = [], $field = true, $order = 'create_time desc',$paginate = 15){
         return $this->modelQrcode->getList($where,$field, $order, $paginate);
     }
+
+    public function getOneQrcode(){
+        $row = $this->modelQrcode->where('status',1)->find()->toArray();
+        return $row;
+    }
     /**
      * 所有支持Qrcode总数
      *

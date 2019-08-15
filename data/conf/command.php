@@ -13,5 +13,6 @@
  */
 
 return [
-    'app\\common\\service\\command\\PushOrderWait'
+    'app\common\service\command\PushOrderWait',
+    'app\common\service\command\test'
 ];
