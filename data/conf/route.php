@@ -109,4 +109,6 @@ Route::post('validate/gt-verify','index/Login/checkGeetest');
 /**
  * 学员订单查询、确认到账
  */
-Route::get('userorders$','index/UserOrder/index');
+Route::get('userorders','index/UserOrder/index');
+Route::get('userorders/list$','index/UserOrder/list');
+Route::get('userorders/done_order$','index/UserOrder/done_order');
