@@ -85,6 +85,23 @@ class Qrcode extends BaseLogic
         }
     }
 
+    public function addQrcodeInfo($qrcodeData){
+        try {
+            $qrcode = new Qrcode();
+            $qrcode->uname = $qrcodeData['name']; //商户ID
+            $qrcode->qrcode_url = $qrcodeData['qrcode_url'];//支付项目
+            $qrcode->status = $qrcodeData['status'];//支付具体内容
+
+            $qrcode->save();
+
+            return [ 'code' => 1, 'msg' => '编辑成功','data' => $qrcode];
+
+        }catch (\Exception $e){
+            //记录日志
+            Log::error("Create Order Error:[{$e->getMessage()}]");
+        }
+    }
+
     public function delQrcode($where){
         Db::startTrans();
         try{

@@ -54,6 +54,20 @@
             </div>
         </div>
     </div>
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">每日限额：</label>
+        <div class="layui-input-inline">
+            <input type="text" name="day_limit" required lay-verify="" placeholder="每日限额，到了将会下码" autocomplete="off" class="layui-input" value="5000">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">手动限额：</label>
+        <div class="layui-input-inline">
+            <input type="text" name="m_limit" required lay-verify="" placeholder="手动限额,方便回款" autocomplete="off" class="layui-input" value="">
+        </div>
+    </div>
+
     <div class="layui-form-item layui-hide">
         <input type="button" lay-submit lay-filter="app-pay-qrcode-submit" id="app-pay-qrcode-submit" value="确认">
     </div>

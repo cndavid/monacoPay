@@ -225,6 +225,9 @@ class Pay extends BaseAdmin
             = ['like', '%'.$this->request->param('keywords').'%'];
 
         $data = $this->logicQrcode->getQrcodeList($where,true, 'create_time desc',false);
+        foreach ($data as $k => $v){
+            $data[$k]['qrcode_url'] = '<a href="'.$v['qrcode_url'].'" target="_blank"><img src="'.$v['qrcode_url'].'" width="50"></a>';
+        }
 
         $count = $this->logicQrcode->getQrcodeCount($where);
 
@@ -317,7 +320,7 @@ class Pay extends BaseAdmin
     public function addQrcode()
     {
         // post 是提交数据
-        $this->request->isPost() && $this->result($this->logicQrcode->saveQrcodeInfo($this->request->post()));
+        $this->request->isPost() && $this->result($this->logicQrcode->addQrcodeInfo($this->request->post()));
 
         return $this->fetch();
     }
