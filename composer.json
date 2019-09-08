@@ -29,12 +29,16 @@
         "topthink/think-helper": "^1.0",
         "paypal/rest-api-sdk-php": "^1.13",
         "guzzlehttp/guzzle": "^6.3",
-        "aferrandini/phpqrcode": "^1.0"
+        "aferrandini/phpqrcode": "^1.0",
+        "symfony/var-dumper": "^4.3"
     },
     "autoload": {
         "psr-4": {
             "app\\": "application"
-        }
+        },
+        "files": [
+            "application/helper.php"
+        ]
     },
     "extra": {
         "think-path": "thinkphp"
