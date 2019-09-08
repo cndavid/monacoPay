@@ -70,9 +70,9 @@ return [
         // 默认使用的缓存
         'default'   =>  [
             // 驱动方式
-            'type'   => 'redis',
+            'type' => 'redis',
             // 服务器地址
-            'host'       => 'cache_redis',
+            'host' => '127.0.0.1',
         ],
         // 文件缓存
         'file'   =>  [
@@ -84,9 +84,9 @@ return [
         // redis缓存
         'redis'   =>  [
             // 驱动方式
-            'type'   => 'redis',
+            'type' => 'redis',
             // 服务器地址
-            'host'       => 'cache_redis',
+            'host' => '127.0.0.1',
         ]
 
     ],
