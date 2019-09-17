@@ -548,6 +548,11 @@ layui.define(["table", "form"],
                         align: "center"
                     },
                     {
+                        field: "today_amount",
+                        title: "今日已收款额",
+                        minWidth: 150,
+                    },
+                    {
                         title: "操作",
                         align: "center",
                         fixed: "right",
@@ -614,6 +619,23 @@ layui.define(["table", "form"],
                             },
                             success: function(e, t) {}
                         })
+                    }
+                    else if ("empty_amount" === e.event) {
+                        layer.confirm("确定清空当日收款总额么？",
+                            function(d) {
+                                t.ajax({
+                                    url: 'emptyQrcode?id='+ e.data.id,
+                                    method:'POST',
+                                    success:function (res) {
+                                        if (res.code == 1){
+                                            layui.table.reload('app-pay-qrcode-list'); //数据刷新
+                                            layer.close(d); //关闭弹层
+                                        }
+                                        layer.msg(res.msg, {icon: res.code == 1 ? 1: 2,time: 1500});
+                                        layer.close(d); //关闭弹层
+                                    }
+                                });
+                            });
                     }
                 });
             e("pay", {})

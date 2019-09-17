@@ -80,6 +80,18 @@ class Pay extends BaseAdmin
         // get 直接报错
         $this->error('未知错误');
     }
+    public function emptyQrcode(){
+        // post 是提交数据
+        $this->request->isPost() && $this->result(
+            $this->logicQrcode->emptyQrcode(
+                [
+                    'id' => $this->request->param('id')
+                ])
+        );
+
+        // get 直接报错
+        $this->error('未知错误');
+    }
     /**
      * 支付渠道列表
      * @url getChannelList?page=1&limit=10

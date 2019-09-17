@@ -115,5 +115,20 @@ class Qrcode extends BaseLogic
             return [ 'code' => CodeEnum::ERROR,  'msg' => config('app_debug') ? $ex->getMessage() : '删除失败'];
         }
     }
+    public function emptyQrcode($where){
+        Db::startTrans();
+        try{
+            $qrcode = new Qrcode();
+            $qrcodeData['today_amount'] = 0;
+            $qrcode->update($qrcodeData,['id'=>$where['id']]);
+            action_log('清空当日收款总额', '清空，ID：'. $where['id']);
+            Db::commit();
+            return [ 'code' => CodeEnum::SUCCESS, 'msg' => '清空成功'];
+        }catch (\Exception $ex){
+            Db::rollback();
+            Log::error($ex->getMessage());
+            return [ 'code' => CodeEnum::ERROR,  'msg' => config('app_debug') ? $ex->getMessage() : '删除失败'];
+        }
+    }
 
 }
